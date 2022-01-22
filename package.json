@@ -1,0 +1,35 @@
+{
+  "name": "antd-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build:dev": "vite build --mode development",
+    "build:pro": "vite build --mode production"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.8",
+    "axios": "^0.25.0",
+    "dayjs": "^1.10.7",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.9",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.3.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
