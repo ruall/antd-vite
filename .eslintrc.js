@@ -39,9 +39,9 @@ module.exports = {
     'no-var': 'error',
     'prettier/prettier': 'error',
     // 禁止出现console
-    'no-console': 'warn',
+    // 'no-console': 'warn',
     // 禁用debugger
-    'no-debugger': 'warn',
+    // 'no-debugger': 'warn',
     // 禁止出现重复的 case 标签
     'no-duplicate-case': 'warn',
     // 禁止出现空语句块
@@ -61,7 +61,7 @@ module.exports = {
     // 要求使用 === 和 !==
     eqeqeq: 'warn',
     // 禁止 if 语句中 return 语句之后有 else 块
-    'no-else-return': 'warn',
+    // 'no-else-return': 'warn',
     // 禁止出现空函数
     'no-empty-function': 'warn',
     // 禁用不必要的嵌套块
@@ -145,6 +145,8 @@ module.exports = {
     'no-extra-boolean-cast': 'warn',
     'no-case-declarations': 'warn',
     'no-async-promise-executor': 'warn',
+    // props非空类型
+    'vue/require-prop-types': 'off',
   },
   globals: {
     defineProps: 'readonly',

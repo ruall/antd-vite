@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import zhCN from 'ant-design-vue/es/locale/zh_CN'
+import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import dayjs from 'dayjs'
 import 'dayjs/locale/zh-cn'
-import Layout from '/@/layout/Layout.vue'
 
 dayjs.locale('zh-cn')
-const locale = zhCN
+const locale = zhCn
 </script>
 
 <template>
-  <a-config-provider :locale="locale">
-    <Layout />
-  </a-config-provider>
+  <el-config-provider :locale="locale">
+    <router-view></router-view>
+  </el-config-provider>
 </template>
